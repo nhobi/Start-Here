@@ -1,0 +1,47 @@
+///////////////////////
+// Base
+///////////////////////
+.clear {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.box {
+    float: left;
+    clear: both;
+    width: 100%;
+    &:after { .clear; }
+}
+.super-container {
+    .box;
+}
+.container {
+    .box;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 798px) { 
+	.container { 
+	    display: block;
+	    margin: auto;
+	    max-width: @grid-width;
+	    float: none;
+	}
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 5px;
+    height: 0;
+    
+    embed, iframe, object {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

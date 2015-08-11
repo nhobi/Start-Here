@@ -1,0 +1,16 @@
+{
+  "name": "starthere",
+  "version": "1.0.0",
+  "description": "the starthere wordpress theme",
+  "main": "gruntfile.js",
+  "author": "gr33k01",
+  "license": "none",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-postcss": "^0.5.5",
+    "jit-grunt": "^0.9.1"
+  }
+}
