@@ -1,0 +1,28 @@
+{
+  "name": "starthere",
+  "description": "the starthere wordpress theme",
+  "main": "gruntfile.js",
+  "authors": [
+    "gr33k01"
+  ],
+  "license": "none",
+  "homepage": "https://github.com/gr33k01/Start-Here",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "foundation": "~5.5.3",
+    "jquery": "~2.1.4",
+    "skeleton": "~2.0.4",
+    "underscore": "~1.8.3"
+  }
+}
