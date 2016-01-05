@@ -20,6 +20,6 @@ A simple WordPress theme boilerplate. Uses a lot of [BlankSlate](https://wordpre
 4. Develop the crap out of your custom theme.
 
 ### Notes
-* Only the most common templates in the [template hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/) have been left in the root of the theme. All other templates are stored in ```_partials/themes```. Nothing magical here -- to start using one of the templates in ```_partials/themes``, simply copy it to the root of the theme.
+* Only the most common templates in the [template hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/) have been left in the root of the theme. All other templates are stored in ```_partials/themes```. Nothing magical here; to start using one of the templates in ```_partials/themes```, simply copy it to the root.
 * It's best not to modify ```functions.php```. Instead, add a new file in ```_partials/functions``` and load it using ```_partials/functions/_loader.php```.
 * When adding a new functions file, the naming convention is ```<action/filter name>.php```. If there is no action or filter, the naming convention is ```<function name>.php```. If you have multiple functions in a given file with no actions or filters, the naming convention is ```shame_<whatever you want>.php``` (go make a plugin). 
