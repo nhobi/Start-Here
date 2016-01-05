@@ -1,6 +1,6 @@
 <?php
 
-function starthere_custom_pings($comment)
+function custom_pings($comment)
 {
 	    $GLOBALS['comment'] = $comment;
 	?>

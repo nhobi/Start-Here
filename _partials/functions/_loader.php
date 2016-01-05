@@ -13,7 +13,7 @@ require_once(__DIR__ . '/comment_form_before.php');
 require_once(__DIR__ . '/embed_oembed_html.php');
 require_once(__DIR__ . '/comment_form_before.php');
 require_once(__DIR__ . '/get_comments_number.php');
-require_once(__DIR__ . '/starthere_custom_pings.php');
+require_once(__DIR__ . '/custom_pings.php');
 require_once(__DIR__ . '/the_title.php');
 require_once(__DIR__ . '/widgets_init.php');
 require_once(__DIR__ . '/wp_enqueue_scripts.php');
